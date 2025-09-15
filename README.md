@@ -1,18 +1,20 @@
-# MAGNATE POS (Streamlit)
+# ＭＡＧＮＡＴＥ Point of Sale (POS)
 
-A simple Point of Sale system built with Streamlit + SQLite, branded for **MAGNATE**.
+A simple **Streamlit-based Point of Sale System** with SQLite persistence.
 
 ## Features
-- Product management (add, view, stock)
-- POS checkout with receipts (PDF with MAGNATE letterhead)
-- Sales tracking & reports
-- SQLite database (persistent)
+- Add & manage products  
+- Record sales  
+- View inventory  
+- View sales history  
 
-## Setup
+## Company Info
+📍 Address: ROVISTA KENYA  
+📞 Phone: +254 700 000 000  
+✉️ Email: magnate003@email.com  
+🌐 Website: www.magnaterovista.com  
+
+## Run Locally
 ```bash
-git clone <your-repo>
-cd magnate_pos_streamlit
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
