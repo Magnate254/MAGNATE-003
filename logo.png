@@ -1,0 +1,4 @@
+assets/
+│── logo.png        # The MAGNATE logo (transparent version we generated)
+│── receipt_bg.png  # (Optional) A small watermark/background for receipts
+│── favicon.ico     # (Optional) Icon for the app tab
